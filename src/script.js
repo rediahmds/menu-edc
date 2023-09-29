@@ -14,7 +14,7 @@ function setChosenOption(elementId, option) {
 function createDropdownElement(counter, placeholder, dropdownItems) {
   const newMenu = `
 			<div class="dropdown my-3">
-  			<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="${counter}">
+  			<button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="${counter}">
     			${placeholder}
   			</button>
   			${dropdownItems}
